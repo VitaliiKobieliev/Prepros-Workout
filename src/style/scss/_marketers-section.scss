@@ -1,0 +1,43 @@
+.marketers-section {
+    max-width: 100%;
+    height: 573px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 213px;
+}
+
+.marketers-section .container .text-holder {
+    width: 525px;
+    height: 532px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 200px;
+
+}
+
+.marketers-section .container .img-holder {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.marketers-section .pseudo-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+
+}
+
+
+.marketers-section .main-text h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2F281E;
+    margin-bottom: 20px;
+}

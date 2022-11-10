@@ -1,0 +1,79 @@
+.Product-section .container {
+    width: 100%;
+    max-width: 1200px;
+    max-height: 520px;
+    flex-direction: row-reverse;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Product-section .text-holder {
+    color: #2F281E;
+    font-family: 'Montserrat';
+    font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Product-section .pseudo-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+    margin-bottom: 0;
+}
+
+.Product-section .main-text h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2F281E;
+    margin: 0 0 20px;
+}
+
+.Product-section .text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+    margin: 20px 0 40px;
+}
+
+.Product-section .text-global {
+    width: 440px;
+    height: 52px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+    margin-left: 50px;
+}
+
+.Product-section .icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+
+.Product-section .img-holder {
+    margin-left: 150px;
+}
+
+.text-list-one div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    width: 505px;
+    height: 52px;
+}

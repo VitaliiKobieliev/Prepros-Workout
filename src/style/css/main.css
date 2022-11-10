@@ -35,6 +35,57 @@ h3 {
   margin: 0 0 16px;
 }
 
+.designe-section {
+  max-width: 100%;
+  height: 573px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.designe-section .container .text-holder {
+  width: 525px;
+  height: 532px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: 200px;
+}
+
+.designe-section .container .img-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.designe-section .pseudo-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+}
+
+.designe-section .main-text h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #2F281E;
+  margin-bottom: 20px;
+}
+
 .btn {
   background-color: #FF9900;
   border-radius: 4px;
@@ -237,7 +288,102 @@ h3 {
   margin-top: 70px;
 }
 
-.designe-section {
+.Product-section .container {
+  width: 100%;
+  max-width: 1200px;
+  max-height: 520px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.Product-section .text-holder {
+  color: #2F281E;
+  font-family: "Montserrat";
+  font-style: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Product-section .pseudo-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+  margin-bottom: 0;
+}
+
+.Product-section .main-text h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #2F281E;
+  margin: 0 0 20px;
+}
+
+.Product-section .text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+  margin: 20px 0 40px;
+}
+
+.Product-section .text-global {
+  width: 440px;
+  height: 52px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+  margin-left: 50px;
+}
+
+.Product-section .icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Product-section .img-holder {
+  margin-left: 150px;
+}
+
+.text-list-one div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  gap: 30px;
+  width: 505px;
+  height: 52px;
+}
+
+.marketers-section {
   max-width: 100%;
   height: 573px;
   display: -webkit-box;
@@ -248,9 +394,10 @@ h3 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 213px;
 }
 
-.designe-section .container .text-holder {
+.marketers-section .container .text-holder {
   width: 525px;
   height: 532px;
   display: -webkit-box;
@@ -261,7 +408,7 @@ h3 {
   margin-right: 200px;
 }
 
-.designe-section .container .img-holder {
+.marketers-section .container .img-holder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -269,7 +416,7 @@ h3 {
       flex-wrap: wrap;
 }
 
-.designe-section .pseudo-title {
+.marketers-section .pseudo-title {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -278,7 +425,7 @@ h3 {
   color: #544837;
 }
 
-.designe-section .main-text h2 {
+.marketers-section .main-text h2 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -286,4 +433,163 @@ h3 {
   line-height: 44px;
   color: #2F281E;
   margin-bottom: 20px;
+}
+
+.footer .container {
+  max-height: 209px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.footer .logo-holder {
+  width: 200px;
+  height: 32px;
+}
+
+.footer .text-holder-list-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 120px;
+  height: 30px;
+}
+
+.footer .text-holder-list-one .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+  width: 76px;
+  height: 149px;
+}
+
+.footer .text-holder-list-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 120px;
+  height: 30px;
+}
+
+.footer .text-holder-list-two .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+  width: 133px;
+  height: 149px;
+}
+
+.footer .form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  gap: 25px;
+  width: 340px;
+  height: 30px;
+}
+
+.footer .form {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 10px;
+  width: 340px;
+  height: 50px;
+  border: 2px solid #BCD0E5;
+  border-radius: 3px;
+  margin-bottom: 3px;
+}
+
+.footer .text-holder-list-three {
+  width: 280px;
+  height: 57px;
+  font-family: "Gotham";
+  font-style: normal;
+  color: #2F281E;
+  margin-bottom: 20px;
+  border-style: none;
+}
+
+.footer .text {
+  width: 212px;
+  height: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #BCD0E5;
+  margin-bottom: 40px;
+}
+
+.footer .btn-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 180px;
+  height: 50px;
+  background: #FF9900;
+  border-radius: 4px;
 }
